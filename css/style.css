@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+                /* HEADER */
+
+header {
+    background-color:#FFFFFF;
+    color: #1E0E62;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+    margin: 0;
+    height: 80px;
+    
+
+}
+
+header a {
+    text-decoration: none;
+    
+}
+
+header .email {
+    background-color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #EBEAED;
+    border-radius:40px;
+    font-size: 16PX;
+}
+
+p {
+    color: rgba(21, 20, 57, 0.4);
+}
+
+                 /* MAIN */
+
+
+            /* PRIMER ETAPA */
+
+main .primerEtapa{
+    background-color:#F1F1F1 ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+
+    
+}
+
+main .primerEtapa div {
+    text-align:justify;
+    
+}
+
+main .primerEtapa p {
+    font-size: 1.1rem;
+    
+}
+
+main .primerTxt{
+    
+    margin: 40px 0 40px 0;
+}
+
+
+
+main .primerH {
+    color: #1E0E62;
+    margin: 40px;
+    font-size: 30px;
+    
+}
+
+main .primerP {
+    color: rgba(21, 20, 57, 0.4);
+    margin: 60px 0 60px 0;
+    max-width: 600px;
+}
+
+main .primerP p {
+    text-align:c;
+}
+
+
+main .primerImg img {
+    border-radius: 10px;
+}
+
+
+            /* SEGUNDA ETAPA */
+
+main .segundaEtapa {
+    display: flex;
+    background-color: #F1F1F1;
+    flex-flow: column wrap;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.segundaHabilidades{
+    width: 40%;
+}
+
+.segundaHabilidades h2{
+    margin: 50px auto 20px auto;
+    font-size: 50px;
+    color: #1E0E62;
+}
+
+.segundaHabilidades p{
+    font-size: 1.1rem;
+    color: rgba(21, 20, 57, 0.4);
+    width: 100%;
+    margin: 10px auto 40px auto;
+    
+}
+
+.primerEtapaTres{
+    height: 150px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.primerEtapaTres i{
+    font-size: 50px;
+    margin: 15px;
+    color:#4D4D4D;
+}
+
+.fa-html5:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: orange;
+    scale: 20px;
+}
+
+.fa-css3-alt:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: #0023FF;
+    scale: 20px;
+}
+.fa-sass:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: #C600C0;
+    scale: 20px;
+}
+.fa-bootstrap:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: #923E8A;
+    scale: 20px;
+}
+.fa-js:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: #E8FF00;
+    scale: 20px;
+}
+.fa-github:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: black;
+    scale: 20px;
+}
+.fa-react:hover{
+    transition: 2s;
+    transform: scale(2);
+    color: #00D6D2;
+    scale: 20px;
+}
+
+
+.primerEtapaTres h4 {
+    color: #1E0E62;
+    font-size: 20px;
+}
+
+/* EXPERIENCIA */
+
+.exp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.miExp {
+    width: 40%;
+}
+
+.miExp h2{
+    font-size: 50px;
+    color: #1E0E62;
+    margin: 60px auto 20px auto;
+}
+
+.miExp p{
+    margin-bottom: 20px;
+}
+
+.miExp a {
+    background: #25DAC5;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.experiencias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px ;
+    margin-bottom: 100px;
+}
+
+.experiencias i{
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+.experiencias i:hover{
+    transform: scale(1.5);
+}
+
+
+.experiencias h5{
+    color: #1E0E62;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot h3 {
+    height: auto;
+    color: #1E0E62;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.foot p {
+    color: #482BE7;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.redes a {
+    font-size: 30px;
+    margin: 40px 20px 40px 20px;
+    color: #9999A7;
+}
+
+.redes a:hover{
+    color:#1E0E62;
+}
